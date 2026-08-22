@@ -1,0 +1,36 @@
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(97, 38, 38);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(221, 61, 61);
+  padding: 15px;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 8px;
+}
+
+.class-link {
+  background-color: rgb(221, 61, 61);
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+.class-link:hover {
+  color: rgb(185, 183, 183);
+  background-color: rgb(144, 59, 59);
+}
